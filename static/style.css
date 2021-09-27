@@ -1,0 +1,107 @@
+.headOne{
+	background: url("/static/slider1e.png");
+    background-position: center;
+    background-position: cover;
+	width: 100%;
+	height: 100vh;
+	
+}
+.bg-steel{
+	background-color: #5f788a;
+	color: white;
+}
+.text{
+	color: white;
+	padding: 1%;
+	text-align: center;
+	background-color: darkgreen;
+	margin: 20% 10%;
+	border-radius: 2rem;
+}
+.text1{
+	color: white;
+	padding: 1%;
+	text-align: center;
+	background-color: darkgreen;
+	margin: 7% 10%;
+	border-radius: 2rem;
+	width: 70%;
+}
+.babbies{
+	height: 50vh;
+	width: 100%;
+	background: url("/static/slider2e.png");
+	background-size: cover;
+	background-position: center;
+}
+.toddlers{
+	height: 60vh;
+	width: 100%;
+	background: url("/static/slider3e.png");
+	background-size: cover;
+	background-position: center;
+}
+.pre-school{
+	height: 60vh;
+	width: 100%;
+	background: url("/static/slider4e.png");
+	background-size: cover;
+	background-position: center;
+}
+.contain{
+	background-color: gold;
+	width: 100%;
+	padding: 3rem;
+}
+.text2{
+	line-height: 2.6rem;
+}
+.contact-infor{
+ width: 70%;
+ padding: 2rem;
+ margin: 1rem 0;
+ background-color: orange;
+ border-top-right-radius: 10rem;
+ border-bottom-left-radius: 10rem;
+}
+@media (max-width: 909px){
+	.contact-infor{
+		width: 100%;
+	}
+}
+	
+.m{
+	margin-left: 15%;
+    margin-top: 2rem;
+	background-color: orange;
+	border-radius: 2rem;
+	width: 70%;	
+}
+.panel-body{
+	margin: 2rem;
+	padding: 2rem;
+/*	background-color: darkorange;
+*/}
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+
+}
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+.account-heading {
+  font-size: 2.5rem;
+}
+.img {
+  height: 30rem;
+  width: 25rem;
+  
+}
+

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container">
+<h1>Register from Here</h1>
+<a type="" class="btn btn-warning" href="{% url 'parent_signup' %}">Parent SignUp</a>
+<a type=" " class="btn btn-warning" href="{% url 'staff_signup' %}">Staff SingnUp</a>
+</div>
+{% endblock%}
